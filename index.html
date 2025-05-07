@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kallen Kotisivut</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Kallen Kotisivut</h1>
+  </header>
+
+  <nav>
+    <a href="#kuka">Kuka olen</a>
+    <a href="#opinnot">Opinnot</a>
+    <a href="#harrastukset">Harrastukset</a>
+    <a href="#tyokokemus">Työkokemus</a>
+    <a href="#tyonaytteet">Työnäytteet</a>
+    <a href="#galleria">Galleria</a>
+    <a href="#yhteystiedot">Yhteystiedot</a>
+  </nav>
+
+  <main>
+    <section id="kuka">
+      <h2>Kuka olen</h2>
+      <p>Kirjoita tähän lyhyt esittely itsestäsi.</p>
+    </section>
+
+    <section id="opinnot">
+      <h2>Opinnot</h2>
+      <p>Kerro tässä, mitä opiskelet ja missä.</p>
+    </section>
+
+    <section id="harrastukset">
+      <h2>Harrastukset</h2>
+      <p>Kerro harrastuksistasi. Voit myös lisätä kuvia:</p>
+      <img src="kuva1.jpg" alt="Harrastuskuva">
+      <p>Linkkejä:</p>
+      <ul>
+        <li><a href="#">Esimerkki harrastuslinkistä</a></li>
+      </ul>
+    </section>
+
+    <section id="tyokokemus">
+      <h2>Työkokemus</h2>
+      <ul>
+        <li>Kesätyöpaikka 1 – Vuosi</li>
+        <li>TOP-paikka 1 – Vuosi</li>
+      </ul>
+    </section>
+
+    <section id="tyonaytteet">
+      <h2>Työnäytteet</h2>
+      <p>Tässä linkkejä projekteihin:</p>
+      <ul>
+        <li><a href="https://github.com/oma-projekti">Github-projekti 1</a></li>
+        <li><a href="#">Toinen työnäyte</a></li>
+      </ul>
+    </section>
+
+    <section id="galleria">
+      <h2>Galleria</h2>
+      <div class="gallery">
+        <img src="kuva2.jpg" alt="Kuva 2">
+        <img src="kuva3.jpg" alt="Kuva 3">
+        <img src="kuva4.jpg" alt="Kuva 4">
+      </div>
+    </section>
+
+    <section id="yhteystiedot">
+      <h2>Yhteystiedot</h2>
+      <form action="#" method="post">
+        <label for="nimi">Nimi</label>
+        <input type="text" id="nimi" name="nimi" required>
+
+        <label for="sahkoposti">Sähköposti</label>
+        <input type="email" id="sahkoposti" name="sahkoposti" required>
+
+        <label for="viesti">Viesti</label>
+        <textarea id="viesti" name="viesti" rows="5" required></textarea>
+
+        <button type="submit">Lähetä</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
